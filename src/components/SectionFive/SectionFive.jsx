@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { nums } from "./arrays/featuredCollectionArray";
+import { nums } from "../../arrays/slidesArray";
 
 // import "./slider.css";
 
@@ -83,7 +83,7 @@ class Slider extends Component {
   };
 
   transLateVal = () => {
-    return -(this.state.current * 25);
+    return -(this.state.current * 33.3333);
   };
 
   sliderStyle = () => {
@@ -101,21 +101,23 @@ class Slider extends Component {
 
   render() {
     return (
-      <div className="w-full">
-        <div className="w-3/5 overflow-hidden mx-auto">
+      <div className="w-5/6 mx-auto flex items-center justify-center p-20">
+        <div>
+          <button onClick={this.handlePrev}>prev</button>
+        </div>
+        <div className="w-full overflow-hidden">
           <ul
             className="flex"
             style={this.sliderStyle()}
             onTransitionEnd={this.handleSliderTranslateEnd}
           >
             {this.state.nums.map((num) => (
-              <img className="w-1/4 h-auto" key={num.id} src={num.img} alt="" />
+              <img className="w-1/3 h-auto" key={num.id} src={num.img} alt="" />
             ))}
           </ul>
-          <div>
-            <button onClick={this.handlePrev}>prev</button>
-            <button onClick={this.handleNext}> next</button>
-          </div>
+        </div>
+        <div>
+          <button onClick={this.handleNext}> next</button>
         </div>
       </div>
     );

@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./Header/Header";
+import Slider from "./SectionFive/SectionFive";
 import SectionThree from "./SectionThree/SectionThree";
 import SectionTwo from "./SectionTwo/SectionTwo";
 
@@ -9,6 +10,7 @@ const Body = () => {
       <Header />
       <SectionTwo />
       <SectionThree />
+      <Slider />
     </div>
   );
 };
