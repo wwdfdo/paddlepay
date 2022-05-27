@@ -1,5 +1,5 @@
 import React from "react";
-import ridebike from "../../images/paddlepay-bike.jpeg";
+import ridebike from "../../images/ridebicycle.png";
 import Aboutinfoshape from "../../images/about-info-shape.png";
 
 const SectionTwo = () => {
