@@ -33,7 +33,7 @@ const SectionTwo = () => {
               <p className="text-white font-semibold">Active Users</p>
             </div>
             <div className="w-1/2">
-              <p className=" text-[30px] leading[36px] font-bold text-[#51bfa6]">
+              <p className=" text-[30px] leading[36px] font-bold text-[#5dcc39]">
                 6,000+
               </p>
               <p className="text-white font-semibold">Tasks Completed</p>
@@ -41,13 +41,13 @@ const SectionTwo = () => {
           </div>
           <div className="flex ml-10">
             <div className="w-1/2">
-              <p className=" text-[30px] leading[36px] font-bold text-[#96d9c8]">
+              <p className=" text-[30px] leading[36px] font-bold text-[#41af1c]">
                 80+
               </p>
               <p className="text-white font-semibold">Partner</p>
             </div>
             <div className="w-1/2">
-              <p className=" text-[30px] leading[36px] font-bold text-[#bae796]">
+              <p className=" text-[30px] leading[36px] font-bold text-[#1fa313]">
                 4,000+
               </p>
               <p className="text-white font-semibold">Positive Reviews</p>
