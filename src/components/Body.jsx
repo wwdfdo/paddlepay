@@ -5,7 +5,7 @@ import SectionTwo from "./SectionTwo/SectionTwo";
 
 const Body = () => {
   return (
-    <div className="w-full bg-[#070d13]">
+    <div className="w-full bg-[#06173b]">
       <Header />
       <SectionTwo />
       <SectionThree />
