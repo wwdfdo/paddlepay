@@ -3,7 +3,7 @@ import Logo from "./Logo";
 
 const Header = () => {
   return (
-    <div className="w-full h-[100px] fixed z-20 bg-gradient-to-r from-[#06122e]">
+    <div className="w-full h-[100px] fixed z-20 bg-gradient-to-r from-[#0b017a] via-[#06122e] to-[#0b017a]">
       <div className="w-4/5 flex justify-between mx-auto pt-[15px]">
         <Logo />
         <div className="flex gap-8 items-center text-base font-semibold text-white">
