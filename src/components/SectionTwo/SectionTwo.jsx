@@ -52,7 +52,7 @@ const SectionTwo = () => {
           </div>
         </div>
       </div>
-      <div className="w-1/2 mt-20">
+      <div className="w-1/2 mt-48">
         <img src={ridebike} alt="" />
       </div>
     </div>
