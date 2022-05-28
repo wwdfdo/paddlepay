@@ -1,5 +1,5 @@
 import React from "react";
-import newlogo from "../../images/paddle-logo2.png";
+import newlogo from "../../images/paddle-logo3.png";
 
 const Logo = () => {
   return (
