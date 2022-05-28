@@ -10,7 +10,7 @@ import Timeline from "./Timeline/Timeline";
 
 const Body = () => {
   return (
-    <div className="w-full bg-gradient-to-r from-[#06122e] via-black to-[#06122e]">
+    <div className="w-full bg-gradient-to-r from-[#06122e] via-black to-[#06122e] font-sansman">
       <Header />
       <SectionTwo />
       <SectionThree />

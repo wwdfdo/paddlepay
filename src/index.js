@@ -3,6 +3,8 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import "../src/fonts/enter-sansman.bold.ttf";
+import "../src/fonts/enter-sansman.bold-italic.ttf";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
