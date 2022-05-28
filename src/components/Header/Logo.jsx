@@ -1,9 +1,9 @@
 import React from "react";
-import newlogo from "../../images/paddle-logo.png";
+import newlogo from "../../images/paddle-logo2.png";
 
 const Logo = () => {
   return (
-    <div className="w-[200px]">
+    <div className="w-[250px]">
       {/* <img src={logo} alt="lOGO" /> */}
       <img src={newlogo} alt="Paddle logo" />
       {/* <img src={logoTwo} alt="lOGOTWO" /> */}
