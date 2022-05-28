@@ -30,7 +30,7 @@ export default function Timeline() {
                   oddOrEven(index) === "odd" ? "order-first text-right" : ""
                 } w-1/2`}
               >
-                <p className="px-4 py-2">{label}</p>
+                <p className={`px-4 py-2 ${color}`}>{label}</p>
                 <h1 className="text-2xl">{taskTitle}</h1>
 
                 <ul className="mt-2 ">

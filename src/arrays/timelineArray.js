@@ -19,7 +19,7 @@ export const timelineArray = [
       "Certik Audit Team",
       "KYC Certification",
     ],
-    color: "text-[#fba920]",
+    color: "text-[#9cdd69]",
   },
   {
     labelTitle: 2022,

@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../../images/updatelogo.png";
-import googleplay from "../../images/googleplay.jpg";
-import applestore from "../../images/applestore.jpg";
+import googleplay from "../../images/googleplay1.png";
+import applestore from "../../images/applestore1.png";
 import telegram from "../../images/telegram.png";
 import telegramcolor from "../../images/telegram-color.png";
 import twitter from "../../images/twitter.png";
@@ -15,11 +15,13 @@ const Footer = () => {
           Copyright © 2021.RBicycle All Rights Reserved.
         </p>
         <div className="flex mt-2">
-          <div>
-            <img className="w-auto h-[40px] mr-5" src={googleplay} alt="" />
+          <div className="relative  mr-5">
+            <img className="w-auto h-[40px]" src={googleplay} alt="" />
+            <div className="w-full bg-white opacity-50 absolute top-0 h-full rounded-lg  cursor-pointer"></div>
           </div>
-          <div>
+          <div className="relative">
             <img className="w-auto h-[40px]" src={applestore} alt="" />
+            <div className="w-full bg-white opacity-50 absolute top-0 h-full rounded-lg cursor-pointer"></div>
           </div>
         </div>
       </div>

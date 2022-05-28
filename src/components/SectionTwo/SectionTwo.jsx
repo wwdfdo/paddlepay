@@ -5,7 +5,7 @@ import Aboutinfoshape from "../../images/about-info-shape.png";
 const SectionTwo = () => {
   return (
     <div className="flex w-5/6 mx-auto gap-12 items-center py-32">
-      <div className="mt-16">
+      <div className="mt-8">
         <div className="mb-10">
           <h2 className="text-[42px] leading-loose font-bold text-white">
             Social-Fi & Game-Fi <span className="text-[#2a77d7]">DAPP</span>
