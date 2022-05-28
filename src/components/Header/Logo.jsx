@@ -3,7 +3,7 @@ import newlogo from "../../images/paddle-logo2.png";
 
 const Logo = () => {
   return (
-    <div className="w-[250px]">
+    <div className="w-[200px]">
       {/* <img src={logo} alt="lOGO" /> */}
       <img src={newlogo} alt="Paddle logo" />
       {/* <img src={logoTwo} alt="lOGOTWO" /> */}
