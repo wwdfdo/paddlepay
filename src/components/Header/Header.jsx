@@ -7,7 +7,9 @@ const Header = () => {
       <div className="w-4/5 flex justify-between mx-auto pt-[15px]">
         <Logo />
         <div className="flex gap-8 items-center text-base font-semibold text-white">
-          <div>Home</div>
+          <div>
+            <a href="#footer">Home</a>
+          </div>
           <div>About</div>
           <div>Features</div>
           <div>Dapp</div>

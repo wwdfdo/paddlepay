@@ -1,8 +1,12 @@
 import React from "react";
+import Footer from "./Footer/Footer";
 import Header from "./Header/Header";
-import Slider from "./SectionFive/SectionFive";
+import SectionSeven from "./SectionSeven/SectionSeven";
+import SectionSix from "./SectionSix/SectionSix";
+import SectionFive from "./SectionFive/SectionFive";
 import SectionThree from "./SectionThree/SectionThree";
 import SectionTwo from "./SectionTwo/SectionTwo";
+import Timeline from "./Timeline/Timeline";
 
 const Body = () => {
   return (
@@ -10,7 +14,11 @@ const Body = () => {
       <Header />
       <SectionTwo />
       <SectionThree />
-      <Slider />
+      <SectionSix />
+
+      <SectionSeven />
+      <Timeline />
+      <Footer />
     </div>
   );
 };

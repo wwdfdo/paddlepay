@@ -107,12 +107,14 @@ class Slider extends Component {
         </div>
         <div className="w-full overflow-hidden">
           <ul
-            className="flex"
+            className="flex flex-row w-full"
             style={this.sliderStyle()}
             onTransitionEnd={this.handleSliderTranslateEnd}
           >
             {this.state.nums.map((num) => (
-              <img className="w-1/3 h-auto" key={num.id} src={num.img} alt="" />
+              <div className="basis-1/3">
+                <img className="w-full" key={num.id} src={num.img} alt="" />
+              </div>
             ))}
           </ul>
         </div>
