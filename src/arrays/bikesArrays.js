@@ -6,18 +6,18 @@ import bike4 from "../images/bike4.jpg";
 export const bikes = [
   {
     id: 1,
-    img: { bike1 },
+    img: bike1,
   },
   {
     id: 2,
-    img: { bike2 },
+    img: bike2,
   },
   {
     id: 3,
-    img: { bike3 },
+    img: bike3,
   },
   {
     id: 4,
-    img: { bike4 },
+    img: bike4,
   },
 ];

@@ -1,11 +1,11 @@
 import React from "react";
-import newlogo from "../../images/updatelogo.png";
+import newlogo from "../../images/paddle-logo.png";
 
 const Logo = () => {
   return (
-    <div className="w-[65px]">
+    <div className="w-[200px]">
       {/* <img src={logo} alt="lOGO" /> */}
-      <img src={newlogo} alt="logoThree" />
+      <img src={newlogo} alt="Paddle logo" />
       {/* <img src={logoTwo} alt="lOGOTWO" /> */}
     </div>
   );

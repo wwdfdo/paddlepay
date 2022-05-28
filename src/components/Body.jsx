@@ -7,6 +7,7 @@ import SectionFive from "./SectionFive/SectionFive";
 import SectionThree from "./SectionThree/SectionThree";
 import SectionTwo from "./SectionTwo/SectionTwo";
 import Timeline from "./Timeline/Timeline";
+import BikeSlider from "./Bike Slider/BikeSlider";
 
 const Body = () => {
   return (
@@ -15,7 +16,7 @@ const Body = () => {
       <SectionTwo />
       <SectionThree />
       <SectionSix />
-
+      <BikeSlider />
       <SectionSeven />
       <Timeline />
       <Footer />
