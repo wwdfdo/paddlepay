@@ -7,16 +7,16 @@ import SectionFive from "./SectionFive/SectionFive";
 import SectionThree from "./SectionThree/SectionThree";
 import SectionTwo from "./SectionTwo/SectionTwo";
 import Timeline from "./Timeline/Timeline";
-import BikeSlider from "./Bike Slider/BikeSlider";
+import SlickSlider from "./SlickSlider/SlickSlider";
 
 const Body = () => {
   return (
     <div className="w-full bg-gradient-to-r from-[#06122e] via-black to-[#06122e] font-sansman">
       <Header />
       <SectionTwo />
+      <SlickSlider />
       <SectionThree />
       <SectionSix />
-      <BikeSlider />
       <SectionSeven />
       <Timeline />
       <Footer />
