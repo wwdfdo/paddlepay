@@ -30,7 +30,8 @@ const SlickSlider = () => {
   const settings = {
     infinite: true,
     lazyLoad: true,
-    speed: 300,
+    autoplay: true,
+    autoplaySpeed: 2000,
     slidesToShow: 3,
     centerMode: true,
     centerPadding: 0,

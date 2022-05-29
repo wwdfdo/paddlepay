@@ -12,7 +12,7 @@
 
 .slide {
   transform: scale(0.2);
-  transition: transform 1000ms;
+  transition: transform 2000ms;
   opacity: 0.5;
 }
 
