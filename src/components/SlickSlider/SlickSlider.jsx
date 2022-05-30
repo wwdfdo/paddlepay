@@ -1,13 +1,9 @@
 import "./SlickSlider.css";
 import React, { useState } from "react";
 import Slider from "react-slick";
-import bike1 from "../../images/bike1.jpg";
-import bike2 from "../../images/bike2.jpg";
-import bike3 from "../../images/bike3.jpg";
-import bike4 from "../../images/bike4.jpg";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import { images } from "../../arrays/slider";
 
-const images = [bike1, bike2, bike3, bike4];
 const SlickSlider = () => {
   const NextArrow = ({ onClick }) => {
     return (
@@ -44,7 +40,10 @@ const SlickSlider = () => {
     <div className="App w-3/5 mx-auto mb-20">
       <Slider {...settings}>
         {images.map((img, idx) => (
-          <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
+          <div
+            key={idx}
+            className={idx === imageIndex ? "slide activeSlide" : "slide"}
+          >
             <img src={img} alt={img} />
           </div>
         ))}

@@ -11,7 +11,7 @@ const SectionThree = () => {
       <div className="grid grid-cols-2 grid-row-2 text-white gap-8 justify-center">
         <div className="flex justify-center bg-[#51bfa52a] py-6">
           <div>
-            <i class="fa-solid fa-arrow-down"></i>
+            <i className="fa-solid fa-arrow-down"></i>
           </div>
           <div className="w-2/3">
             <h2>Active Lifestyle</h2>

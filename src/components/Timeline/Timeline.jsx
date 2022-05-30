@@ -14,7 +14,7 @@ export default function Timeline() {
     <div className="my-20">
       {timelineArray.map(
         ({ labelTitle, label, taskTitle, subTasks, color }, index) => (
-          <>
+          <div key={index}>
             <div
               className={`flex items-start gap-8 text-white font-semibold my-10`}
             >
@@ -42,7 +42,7 @@ export default function Timeline() {
                 </ul>
               </div>
             </div>
-          </>
+          </div>
         )
       )}
     </div>

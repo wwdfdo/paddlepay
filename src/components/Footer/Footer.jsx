@@ -29,7 +29,10 @@ const Footer = () => {
         <h2 className="text-white text-xl font-semibold">Subscribe Us</h2>
         <div className="bg-blue-600 py-2 px-4">
           <form className="flex items-center" action="">
-            <input className="bg-blue-600" type="text" />
+            <input
+              className="bg-blue-600 focus:outline-none text-white"
+              type="text"
+            />
             <button>
               <img className="w-[24px] ml-2" src={telegram} alt="" />
             </button>
