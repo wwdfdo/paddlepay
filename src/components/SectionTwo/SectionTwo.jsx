@@ -47,7 +47,7 @@ const SectionTwo = () => {
                 <p className=" text-[30px] leading[36px] font-bold text-[#9cdd69]">
                   6,000+
                 </p>
-                <p className="text-white font-semibold">Tasks Completed</p>
+                <p className="text-white">Tasks Completed</p>
               </div>
             </div>
           </div>

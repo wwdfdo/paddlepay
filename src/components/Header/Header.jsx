@@ -13,7 +13,9 @@ const Header = () => {
           <div>About</div>
           <div>Features</div>
           <div>Dapp</div>
-          <div>Team</div>
+          <div>
+            <a href="#team">Team</a>
+          </div>
           <div>Roadmap</div>
           <div className="bg-[#5b7fd7] py-3 px-5 rounded-md">
             <button>NFT</button>

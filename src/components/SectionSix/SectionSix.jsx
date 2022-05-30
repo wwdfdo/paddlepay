@@ -3,7 +3,7 @@ import { membersArray } from "../../arrays/membersArray";
 
 const SectionSix = () => {
   return (
-    <div className="w-3/4 mx-auto pb-10">
+    <div className="w-3/4 mx-auto py-10" id="team">
       <div>
         <h2 className="text-6xl text-white font-bold text-center my-16 animate-bounce-short">
           Team Member.
