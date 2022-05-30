@@ -7,7 +7,7 @@ import { images } from "../../arrays/slider";
 const SlickSlider = () => {
   const NextArrow = ({ onClick }) => {
     return (
-      <div className="arrow next" onClick={onClick}>
+      <div className="arrow next text-xl" onClick={onClick}>
         <FaArrowRight />
       </div>
     );
@@ -15,7 +15,7 @@ const SlickSlider = () => {
 
   const PrevArrow = ({ onClick }) => {
     return (
-      <div className="arrow prev" onClick={onClick}>
+      <div className="arrow prev text-xl" onClick={onClick}>
         <FaArrowLeft />
       </div>
     );
