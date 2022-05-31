@@ -39,11 +39,14 @@ const FooterTwo = () => {
         </div>
         <div>
           <div>
-            <h2 className="mb-2 text-[#73f59b] mb-3">NEWSLETTER</h2>
-            <form action="#">
-              <input className="border-none py-1 text-black" type="text" />
+            <h2 className="mb-3 text-[#73f59b]">NEWSLETTER</h2>
+            <form className="flex" action="#">
               <input
-                className="bg-[#73f59b] px-3 py-1 active:border-none"
+                className="border-none py-1 text-black w-3/5"
+                type="text"
+              />
+              <input
+                className="bg-[#73f59b] px-3 py-1 active:border-none ml-1"
                 type="submit"
                 value="Submit"
               ></input>
