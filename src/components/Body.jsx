@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "./Footer/Footer";
+
 import Header from "./Header/Header";
 import SectionSeven from "./SectionSeven/SectionSeven";
 import SectionSix from "./SectionSix/SectionSix";
@@ -7,7 +7,8 @@ import SectionThree from "./SectionThree/SectionThree";
 import SectionTwo from "./SectionTwo/SectionTwo";
 import Timeline from "./Timeline/Timeline";
 import SlickSlider from "./SlickSlider/SlickSlider";
-import SectionFour from "./SectionFour/SectionFour";
+// import SectionFour from "./SectionFour/SectionFour";
+import FooterTwo from "./Footer2/FooterTwo";
 
 const Body = () => {
   return (
@@ -19,8 +20,8 @@ const Body = () => {
       <SectionSix />
       <SectionSeven />
       <Timeline />
-      <SectionFour />
-      <Footer />
+      {/* <SectionFour /> */}
+      <FooterTwo />
     </div>
   );
 };
