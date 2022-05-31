@@ -8,7 +8,10 @@ import positive from "../../images/smiling-face.png";
 
 const SectionTwo = () => {
   return (
-    <div className="flex w-5/6 mx-auto gap-12 items-center py-32">
+    <div
+      className="flex w-5/6 mx-auto gap-12 items-center pb-32 pt-20"
+      id="home"
+    >
       <div className="mt-8 w-1/2">
         <div className="mb-10">
           <h2 className="text-[42px] leading-loose font-bold text-white">

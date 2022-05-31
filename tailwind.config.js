@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         heroImage: "url('/src/images/cta-bg.jpg')",
+        slidebg: "url('/src/images/slide-image-bg.png')",
       },
       animation: {
         // Bounces for a total of 5 seconds

@@ -2,7 +2,10 @@ import React from "react";
 
 const SectionSeven = () => {
   return (
-    <div className=" flex flex-col gap-16 items-center py-20 bg-heroImage w-4/5 h-full bg-cover bg-no-repeat mx-auto justify-center mb-20">
+    <div
+      id="yo"
+      className=" flex flex-col gap-16 items-center py-20 bg-heroImage w-4/5 h-full bg-cover bg-no-repeat mx-auto justify-center mb-20"
+    >
       <h2 className="text-white text-5xl text-center font-bold">
         Ready To Ride-To-Earn?
       </h2>

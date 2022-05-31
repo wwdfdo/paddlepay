@@ -42,7 +42,7 @@ const SlickSlider = () => {
         {images.map((img, idx) => (
           <div
             key={idx}
-            className={idx === imageIndex ? "slide activeSlide" : "slide"}
+            className={`${idx === imageIndex ? "slide activeSlide" : "slide"} `}
           >
             <img src={img} alt={img} />
           </div>

@@ -7,6 +7,7 @@ import SectionThree from "./SectionThree/SectionThree";
 import SectionTwo from "./SectionTwo/SectionTwo";
 import Timeline from "./Timeline/Timeline";
 import SlickSlider from "./SlickSlider/SlickSlider";
+import SectionFour from "./SectionFour/SectionFour";
 
 const Body = () => {
   return (
@@ -18,6 +19,7 @@ const Body = () => {
       <SectionSix />
       <SectionSeven />
       <Timeline />
+      <SectionFour />
       <Footer />
     </div>
   );

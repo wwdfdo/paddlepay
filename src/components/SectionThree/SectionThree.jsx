@@ -11,7 +11,10 @@ const SectionThree = () => {
       </div>
       <div className="grid grid-cols-2 grid-row-2 text-white gap-8 justify-center">
         {earnToBikes.map((bike) => (
-          <div className="flex justify-center bg-[#51bfa52a] py-10 gap-5 rounded-lg">
+          <div
+            key={bike.title}
+            className="flex justify-center bg-[#51bfa52a] py-10 gap-5 rounded-lg"
+          >
             <div>
               <img className="w-[50px]" src={bike.img} alt="" />
             </div>

@@ -1,17 +1,18 @@
 import React from "react";
-import Logo from "../../images/updatelogo.png";
+// import Logo from "../../images/updatelogo.png";
 import googleplay from "../../images/googleplay1.png";
 import applestore from "../../images/applestore1.png";
 import telegram from "../../images/telegram.png";
 import telegramcolor from "../../images/telegram-color.png";
 import twitter from "../../images/twitter.png";
+import Logo from "../Header/Logo";
 
 const Footer = () => {
   return (
     <div id="footer" className="flex justify-between w-5/6 mx-auto  pb-10">
       <div>
-        <img className="w-[80px]" src={Logo} alt="" />
-        <p className="text-white">
+        <Logo width={"w-[150px]"} />
+        <p className="text-white pt-6">
           Copyright © 2021.RBicycle All Rights Reserved.
         </p>
         <div className="flex mt-2">

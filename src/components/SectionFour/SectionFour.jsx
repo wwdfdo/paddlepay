@@ -2,8 +2,8 @@ import React from "react";
 
 const SectionFour = () => {
   return (
-    <div>
-      <div></div>
+    <div className="flex">
+      <div className=" bg-slidebg w-1/2 bg-cover bg-no-repeat"></div>
       <div></div>
     </div>
   );
