@@ -3,7 +3,7 @@ import { earnToBikes } from "../../arrays/bikeToEarnArray";
 
 const SectionThree = () => {
   return (
-    <div className="w-3/4 mx-auto">
+    <div id="Features" className="w-3/4 mx-auto pt-28">
       <div>
         <h2 className="text-4xl font-bold text-center text-white mb-16">
           The Groundbreaking Bike-To-Earn.

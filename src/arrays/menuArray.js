@@ -6,8 +6,8 @@ export const menus = [
   },
   {
     id: 2,
-    title: "About",
-    link: "#About",
+    title: "Bikes",
+    link: "#Bikes",
   },
   {
     id: 3,
@@ -16,8 +16,8 @@ export const menus = [
   },
   {
     id: 4,
-    title: "Dapp",
-    link: "#yo",
+    title: "Team",
+    link: "#team",
   },
   {
     id: 5,

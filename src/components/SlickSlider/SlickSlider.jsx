@@ -37,7 +37,7 @@ const SlickSlider = () => {
   };
 
   return (
-    <div className="App w-3/4 mx-auto mb-20">
+    <div id="Bikes" className="App w-4/5 mx-auto pt-32">
       <Slider {...settings}>
         {images.map((img, idx) => (
           <div
