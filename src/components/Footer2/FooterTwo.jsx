@@ -8,8 +8,8 @@ import Logo from "../Header/Logo";
 
 const FooterTwo = () => {
   return (
-    <div className="text-white border-t-2 border-white w-[95%] mx-auto">
-      <div className="flex w-3/4 justify-between text-white mx-auto my-16">
+    <div className="text-white">
+      <div className="flex w-4/5 justify-between text-white mx-auto my-16">
         <div className="flex flex-col">
           <h2 className="text-[#73f59b] mb-3">Contact</h2>
           <ul>
@@ -72,7 +72,7 @@ const FooterTwo = () => {
           </div>
         </div>
       </div>
-      <Logo width={"w-[300px]"} center={"mx-auto"} />
+      <Logo width={"w-[250px]"} center={"mx-auto "} />
       <h2 className="text-center py-5">
         Copyright © 2021.RBicycle All Rights Reserved.
       </h2>

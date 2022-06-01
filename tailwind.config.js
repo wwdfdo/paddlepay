@@ -5,6 +5,7 @@ module.exports = {
       backgroundImage: {
         heroImage: "url('/src/images/cta-bg.jpg')",
         slidebg: "url('/src/images/slide-image-bg.png')",
+        roadmapbg: "url('/src/images/roadmapbg1.png')",
       },
       animation: {
         // Bounces for a total of 5 seconds

@@ -1,14 +1,15 @@
 import React from "react";
 
 import Header from "./Header/Header";
-import SectionSeven from "./SectionSeven/SectionSeven";
+// import SectionSeven from "./SectionSeven/SectionSeven";
 import SectionSix from "./SectionSix/SectionSix";
 import SectionThree from "./SectionThree/SectionThree";
 import SectionTwo from "./SectionTwo/SectionTwo";
-import Timeline from "./Timeline/Timeline";
+// import Timeline from "./Timeline/Timeline";
 import SlickSlider from "./SlickSlider/SlickSlider";
 // import SectionFour from "./SectionFour/SectionFour";
 import FooterTwo from "./Footer2/FooterTwo";
+import TimelineRoadMap from "./TimelineRoadMap/TimelineRoadMap";
 
 const Body = () => {
   return (
@@ -18,8 +19,9 @@ const Body = () => {
       <SlickSlider />
       <SectionThree />
       <SectionSix />
-      <SectionSeven />
-      <Timeline />
+      <TimelineRoadMap />
+      {/* <SectionSeven /> */}
+      {/* <Timeline /> */}
       {/* <SectionFour /> */}
       <FooterTwo />
     </div>

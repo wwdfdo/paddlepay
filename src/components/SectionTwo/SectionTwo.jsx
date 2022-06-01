@@ -9,10 +9,10 @@ import positive from "../../images/smiling-face.png";
 const SectionTwo = () => {
   return (
     <div
-      className="flex w-5/6 mx-auto gap-12 items-center pb-32 pt-20"
+      className="flex flex-col md:flex-row md:w-5/6 mx-auto gap-12 items-center pb-32 pt-20"
       id="home"
     >
-      <div className="mt-8 w-1/2">
+      <div className="mt-8 w-5/6 md:w-1/2 ">
         <div className="mb-10">
           <h2 className="text-[42px] leading-loose font-bold text-white">
             Social-Fi & Game-Fi <span className="text-[#2a77d7]">DAPP</span>
@@ -29,7 +29,7 @@ const SectionTwo = () => {
             {/* <span className="text-[#2a77d7]">Since 2022</span> */}
           </h2>
         </div>
-        <div className="border-r-4 border-[#8A6FDF] mt-10 py-6 pl-20">
+        <div className="border-r-4 border-[#8A6FDF] mt-10 py-6 lg:pl-20">
           <div className="flex ml-10 mb-8 text-left">
             <div className="w-1/2 flex items-center gap-6">
               <div>
