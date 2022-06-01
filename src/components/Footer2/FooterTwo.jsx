@@ -72,7 +72,7 @@ const FooterTwo = () => {
           </div>
         </div>
       </div>
-      <Logo width={"w-[250px]"} center={"mx-auto "} />
+      <Logo width={"w-[250px]"} center={"mx-auto"} />
       <h2 className="text-center py-5">
         Copyright © 2021.RBicycle All Rights Reserved.
       </h2>

@@ -30,7 +30,7 @@ const SlickSlider = () => {
     autoplaySpeed: 2000,
     slidesToShow: 3,
     centerMode: true,
-    centerPadding: 0,
+    centerPadding: 1,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     beforeChange: (current, next) => setImageIndex(next),
