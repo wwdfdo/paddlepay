@@ -5,7 +5,7 @@ const SectionThree = () => {
   return (
     <div id="Features" className="w-3/4 mx-auto lg:pt-28 pt-10">
       <div>
-        <h2 className="lg:text-[3em] text-[1.875em] font-bold text-center text-white lg:mb-16">
+        <h2 className="lg:text-[3em] text-[1.875em] font-bold text-center text-white lg:mb-16 font-mono">
           The Groundbreaking Bike-To-Earn.
         </h2>
       </div>

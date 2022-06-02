@@ -1,8 +1,8 @@
 export const menus = [
   {
     id: 1,
-    title: "Home",
-    link: "#home",
+    title: "NFTs",
+    link: "#Bikes",
   },
   {
     id: 2,
@@ -11,12 +11,12 @@ export const menus = [
   },
   {
     id: 3,
-    title: "Features",
+    title: "Overview",
     link: "#Features",
   },
   {
     id: 4,
-    title: "Team",
+    title: "Our Team",
     link: "#team",
   },
   {
@@ -26,7 +26,7 @@ export const menus = [
   },
   {
     id: "button",
-    title: "NFT",
+    title: "Whitepaper",
     link: "#Roadmap",
   },
 ];

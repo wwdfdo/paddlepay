@@ -9,7 +9,7 @@ import Logo from "../Header/Logo";
 const FooterTwo = () => {
   return (
     <div className="text-white">
-      <div className="flex lg:flex-row flex-col w-4/5 lg:justify-between items-center text-center gap-8 text-white mx-auto my-16">
+      <div className="flex lg:flex-row flex-col w-4/5 lg:justify-between items-center lg:text-left text-center gap-8 text-white mx-auto my-16">
         <div className="flex flex-col">
           <h2 className="text-[#73f59b] mb-3">Contact</h2>
           <ul>

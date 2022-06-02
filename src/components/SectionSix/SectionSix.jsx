@@ -5,7 +5,7 @@ const SectionSix = () => {
   return (
     <div className="w-3/4 mx-auto lg:pt-10" id="team">
       <div>
-        <h2 className="lg:text-6xl text-4xl text-white font-bold text-center my-16">
+        <h2 className="lg:text-[3em] text-3xl text-white font-bold text-center my-16 font-mono">
           Team Member.
         </h2>
       </div>
