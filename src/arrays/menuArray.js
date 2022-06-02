@@ -12,7 +12,7 @@ export const menus = [
   {
     id: 3,
     title: "Overview",
-    link: "#Features",
+    link: "#Overview",
   },
   {
     id: 4,

@@ -12,12 +12,14 @@ import FooterTwo from "./Footer2/FooterTwo";
 import TimelineRoadMap from "./TimelineRoadMap/TimelineRoadMap";
 import ViewPort from "./ViewPort/ViewPort";
 import RidingMode from "./RidingMode/RidingMode";
+import Overview from "./Overview/Overview";
 
 const Body = () => {
   return (
     <div className="w-full bg-[#14213d] font-sans">
       <Header />
       <ViewPort />
+      <Overview />
       {/* <SectionTwo /> */}
       <SlickSlider />
       {/* <SectionThree /> */}

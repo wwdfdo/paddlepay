@@ -54,19 +54,19 @@ const FooterTwo = () => {
           </div>
 
           <div className="flex gap-5 mt-5">
-            <div className="w-[45px]">
+            <div className="w-[31px]">
               <img src={instagram} alt="" />
             </div>
-            <div className="w-[45px]">
+            <div className="w-[31px]">
               <img src={facebook} alt="" />
             </div>
-            <div className="w-[45px]">
+            <div className="w-[31px]">
               <img src={twitter} alt="" />
             </div>
-            <div className="w-[45px]">
+            <div className="w-[31px]">
               <img src={linkedin} alt="" />
             </div>
-            <div className="w-[45px]">
+            <div className="w-[31px]">
               <img src={whatsapp} alt="" />
             </div>
           </div>
