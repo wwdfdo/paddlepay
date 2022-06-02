@@ -46,7 +46,7 @@ const SlickSlider = () => {
     <div id="Bikes" className="App lg:w-4/5 w-5/6  mx-auto lg:pt-40 pt-10">
       <h2 className="text-white font-sans font-bold text-center lg:text-[3em] lg:mb-16">
         {" "}
-        NFts Showcase
+        NFTs Showcase
       </h2>
       <div>
         <Slider {...settings}>
