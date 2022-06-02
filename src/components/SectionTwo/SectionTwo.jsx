@@ -14,7 +14,7 @@ const SectionTwo = () => {
     >
       <div className="mt-8 w-5/6 md:w-1/2 ">
         <div className="mb-10">
-          <h2 className="text-[42px] leading-loose font-bold text-white">
+          <h2 className="lg:text-[42px] text-3xl text-center leading-loose font-bold text-white">
             Social-Fi & Game-Fi <span className="text-[#2a77d7]">DAPP</span>
           </h2>
         </div>
@@ -80,7 +80,7 @@ const SectionTwo = () => {
           </div>
         </div>
       </div>
-      <div className="w-1/2 mt-48">
+      <div className="lg:w-1/2 lg:mt-48">
         <img src={ridebike} alt="" />
       </div>
     </div>

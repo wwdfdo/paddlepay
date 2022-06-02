@@ -13,7 +13,7 @@ import TimelineRoadMap from "./TimelineRoadMap/TimelineRoadMap";
 
 const Body = () => {
   return (
-    <div className="w-full bg-gradient-to-r from-[#06122e] via-black to-[#06122e] font-sansman">
+    <div className="w-full bg-gradient-to-r from-[#06122e] via-black to-[#06122e] font-sans">
       <Header />
       <SectionTwo />
       <SlickSlider />

@@ -7,7 +7,7 @@ const Header = () => {
   const [navId, setNavId] = useState();
 
   return (
-    <div className="w-full h-[85px] fixed z-20 bg-gradient-to-r from-[#06122e] via-black to-[#06122e]">
+    <div className="w-full h-[85px] fixed z-20 bg-gradient-to-r from-[#06122e] via-black to-[#06122e] font-bold">
       <div className="w-4/5 flex justify-between items-center mx-auto pt-[15px]">
         <Logo width={"w-[200px]"} />
         <div className="flex gap-8 items-center text-base font-semibold ">

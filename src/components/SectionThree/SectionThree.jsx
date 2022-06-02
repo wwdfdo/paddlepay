@@ -3,17 +3,17 @@ import { earnToBikes } from "../../arrays/bikeToEarnArray";
 
 const SectionThree = () => {
   return (
-    <div id="Features" className="w-3/4 mx-auto pt-28">
+    <div id="Features" className="w-3/4 mx-auto lg:pt-28 pt-10">
       <div>
-        <h2 className="text-4xl font-bold text-center text-white mb-16">
+        <h2 className="lg:text-[3em] text-[1.875em] font-bold text-center text-white lg:mb-16">
           The Groundbreaking Bike-To-Earn.
         </h2>
       </div>
-      <div className="grid grid-cols-2 grid-row-2 text-white gap-8 justify-center">
+      <div className="lg:grid lg:grid-cols-2 lg:grid-row-2  text-white lg:gap-8 justify-center">
         {earnToBikes.map((bike) => (
           <div
             key={bike.title}
-            className="flex justify-center bg-[#51bfa52a] py-10 gap-5 rounded-lg"
+            className="flex justify-center bg-[#51bfa52a] py-10 gap-5 rounded-lg mt-8"
           >
             <div>
               <img className="w-[50px]" src={bike.img} alt="" />

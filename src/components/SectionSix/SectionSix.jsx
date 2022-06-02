@@ -3,13 +3,13 @@ import { membersArray } from "../../arrays/membersArray";
 
 const SectionSix = () => {
   return (
-    <div className="w-3/4 mx-auto pt-10" id="team">
+    <div className="w-3/4 mx-auto lg:pt-10" id="team">
       <div>
-        <h2 className="text-6xl text-white font-bold text-center my-16">
+        <h2 className="lg:text-6xl text-4xl text-white font-bold text-center my-16">
           Team Member.
         </h2>
       </div>
-      <div className="flex gap-10">
+      <div className="flex lg:flex-row flex-col gap-10">
         {membersArray.map((member) => (
           <div key={member.id} className="relative">
             <img className="rounded-lg" src={member.img} alt="" />

@@ -7,7 +7,10 @@ import { images } from "../../arrays/slider";
 const SlickSlider = () => {
   const NextArrow = ({ onClick }) => {
     return (
-      <div className="arrow next text-xl" onClick={onClick}>
+      <div
+        className="arrow absolute cursor-pointer z-10 text-[#73f59b] lg:right-[25%] right-0 top-[50%] hover:text-[#68edff] next text-xl"
+        onClick={onClick}
+      >
         <FaArrowRight />
       </div>
     );
@@ -15,7 +18,10 @@ const SlickSlider = () => {
 
   const PrevArrow = ({ onClick }) => {
     return (
-      <div className="arrow prev text-xl" onClick={onClick}>
+      <div
+        className="arrow absolute cursor-pointer z-10 text-[#73f59b] lg:left-[25%] left-0 top-[50%] hover:text-[#68edff] prev text-xl"
+        onClick={onClick}
+      >
         <FaArrowLeft />
       </div>
     );
@@ -37,7 +43,7 @@ const SlickSlider = () => {
   };
 
   return (
-    <div id="Bikes" className="App w-4/5 mx-auto pt-32">
+    <div id="Bikes" className="App lg:w-4/5 w-5/6  mx-auto lg:pt-32 pt-10">
       <Slider {...settings}>
         {images.map((img, idx) => (
           <div

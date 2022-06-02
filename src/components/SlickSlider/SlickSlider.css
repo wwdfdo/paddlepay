@@ -17,7 +17,7 @@
   opacity: 1;
 }
 
-.arrow {
+/*.arrow {
   position: absolute;
   cursor: pointer;
   z-index: 10;
@@ -40,7 +40,7 @@
 .prev {
   left: 25%;
   top: 50%;
-}
+}  */
 
 .slick-list {
   padding-top: 48px;
