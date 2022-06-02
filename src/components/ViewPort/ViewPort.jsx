@@ -14,7 +14,7 @@ const ViewPort = () => {
         </div>
         <div>
           <p className=" text-2xl leading-relaxed font-semibold">
-            PaddlePay is a futuristic, eco-mobility platform combining worlds of
+            PedalPay is a futuristic, eco-mobility platform combining worlds of
             Game-Fi and Social-Fi into the most green mode of mobility, cycling.
           </p>
         </div>

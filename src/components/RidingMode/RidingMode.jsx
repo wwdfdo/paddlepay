@@ -3,13 +3,13 @@ import React from "react";
 const RidingMode = () => {
   return (
     <div id="RidingMode" className="pt-24">
-      <h2 className="text-white font-sans font-bold text-center lg:text-[3em] lg:mb-16">
-        Riding Mode
+      <h2 className="text-white font-rubik font-bold text-center lg:text-[3em] lg:mb-16">
+        Riding Modes
       </h2>
       <div className="w-4/5 flex justify-center gap-8 mx-auto">
         <div className=" text-white rounded-lg w-full p-10 transition ease-in-out delay-150 bg-[#144648] hover:-translate-y-1 hover:scale-105">
           <h3 className="mb-5 font-bold font-mono text-2xl">TRAINING MODE</h3>
-          <p className=" font-semibold">
+          <p className=" font-semibold font-lato">
             In training mode, users use their NFT Bicycles to earn tokens by
             riding bicycles around. Users have to choose their bicycle before it
             starts.

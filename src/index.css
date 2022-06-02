@@ -28,3 +28,9 @@ code {
   src: local("lato"), url("./fonts/Lato-Bold.ttf") format("truetype");
   font-weight: bold;
 }
+
+@font-face {
+  font-family: "rubik";
+  src: local("rubik"), url("./fonts/Rubik-Bold.ttf") format("truetype");
+  font-weight: bold;
+}

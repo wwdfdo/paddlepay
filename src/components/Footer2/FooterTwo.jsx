@@ -11,7 +11,7 @@ const FooterTwo = () => {
     <div className="text-white">
       <div className="flex lg:flex-row flex-col w-4/5 lg:justify-between items-center lg:text-left text-center gap-8 text-white mx-auto my-16">
         <div className="flex flex-col">
-          <h2 className="text-[#73f59b] mb-3">Contact</h2>
+          <h2 className="text-[#51AD6D] font-semibold mb-3">Contact</h2>
           <ul>
             <li>Contact</li>
             <li>Contact</li>
@@ -20,7 +20,7 @@ const FooterTwo = () => {
           </ul>
         </div>
         <div>
-          <h2 className="text-[#73f59b] mb-3">useful links</h2>
+          <h2 className="text-[#51AD6D] font-semibold mb-3">useful links</h2>
           <ul>
             <li>What Is Paddlepay?</li>
             <li>The Opportunity</li>
@@ -29,7 +29,7 @@ const FooterTwo = () => {
           </ul>
         </div>
         <div>
-          <h2 className="text-[#73f59b] mb-3">Recent post</h2>
+          <h2 className="text-[#51AD6D] font-semibold mb-3">Recent post</h2>
           <ul>
             <li>Contact</li>
             <li>Contact</li>
@@ -39,14 +39,14 @@ const FooterTwo = () => {
         </div>
         <div>
           <div>
-            <h2 className="mb-3 text-[#73f59b]">NEWSLETTER</h2>
+            <h2 className="mb-3 text-[#51AD6D] font-semibold">NEWSLETTER</h2>
             <form className="flex" action="#">
               <input
                 className="border-none py-1 text-black outline-0 w-3/5 pl-2"
                 type="text"
               />
               <input
-                className="bg-[#73f59b] px-3 py-1  ml-1"
+                className="bg-[#51AD6D] px-3 py-1  ml-1"
                 type="submit"
                 value="Submit"
               ></input>
