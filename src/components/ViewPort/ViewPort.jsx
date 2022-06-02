@@ -8,7 +8,7 @@ const ViewPort = () => {
     <div className="flex flex-col md:flex-row md:w-4/5 mx-auto gap-12 items-center pt-28">
       <div className="mt-8 w-5/6 md:w-2/5 text-white flex flex-col gap-8 ">
         <div>
-          <h1 className=" text-6xl font-bold font-sans leading-relaxed">
+          <h1 className=" text-6xl font-bold font-['Open Sans'] leading-relaxed">
             Social-Fi & <br /> Game-Fi <br /> DAPP
           </h1>
         </div>

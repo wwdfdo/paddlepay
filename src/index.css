@@ -22,3 +22,9 @@ code {
     url("./fonts/enter-sansman.bold.ttf") format("truetype");
   font-weight: bold;
 }
+
+@font-face {
+  font-family: "lato";
+  src: local("lato"), url("./fonts/Lato-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
