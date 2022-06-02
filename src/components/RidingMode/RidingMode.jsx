@@ -2,8 +2,8 @@ import React from "react";
 
 const RidingMode = () => {
   return (
-    <div>
-      <h2 className="text-white font-sans font-bold text-center lg:text-[3em] lg:my-16">
+    <div id="RidingMode" className="pt-24">
+      <h2 className="text-white font-sans font-bold text-center lg:text-[3em] lg:mb-16">
         Riding Mode
       </h2>
       <div className="w-4/5 flex justify-center gap-8 mx-auto">

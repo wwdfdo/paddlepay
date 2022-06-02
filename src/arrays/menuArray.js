@@ -6,8 +6,8 @@ export const menus = [
   },
   {
     id: 2,
-    title: "Bikes",
-    link: "#Bikes",
+    title: "Gameplay",
+    link: "#RidingMode",
   },
   {
     id: 3,
