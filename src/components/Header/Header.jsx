@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "./Logo";
 import { useState } from "react";
 import { menus } from "../../arrays/menuArray";
+import hamburger from "../../images/hamburger.png";
 
 const Header = () => {
   const [navId, setNavId] = useState();
@@ -20,13 +21,16 @@ const Header = () => {
                 menu.id === "button"
                   ? "bg-[#274077] py-3 px-5 rounded-md text-white"
                   : ""
-              }`}
+              } lg:block hidden`}
               onClick={() => setNavId(menu.id)}
               href={menu.link}
             >
               {menu.title}
             </a>
           ))}
+        </div>
+        <div className="lg:hidden block w-[40px]">
+          <img src={hamburger} alt="" />
         </div>
       </div>
     </div>

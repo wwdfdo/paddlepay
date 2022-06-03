@@ -50,7 +50,7 @@ const FooterTwo = () => {
             </h2>
             <form className="flex" action="#">
               <input
-                className="border-none py-1 text-black outline-0 w-3/5 pl-2"
+                className="border-none py-1 text-black font-semibold outline-0 w-3/5 pl-2"
                 type="text"
               />
               <input

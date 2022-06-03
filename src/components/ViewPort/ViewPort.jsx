@@ -1,7 +1,7 @@
 import React from "react";
 import Applestore from "../../images/applestore1.png";
 import Googleplay from "../../images/googleplay1.png";
-import ridebike from "../../images/ridebicycleupdated.png";
+import ridebike from "../../images/viewportImg.png";
 
 const ViewPort = () => {
   return (
