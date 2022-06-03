@@ -1,5 +1,5 @@
 import React from "react";
-import overviewImg from "../../images/pedalpaynft1.png";
+import overviewImg from "../../images/pedalpaynftv1.png";
 
 const Overview = () => {
   return (
