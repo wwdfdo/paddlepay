@@ -1,5 +1,5 @@
 import React from "react";
-import overviewImg from "../../images/overviewimg.png";
+import overviewImg from "../../images/pedalpaynft1.png";
 
 const Overview = () => {
   return (
@@ -8,7 +8,7 @@ const Overview = () => {
         Overview
       </h2>
       <div className="flex w-4/5 justify-between mx-auto items-center gap-20">
-        <img className="w-1/2 h-[500px]" src={overviewImg} alt="" />
+        <img className="w-1/2" src={overviewImg} alt="" />
         <div className="w-1/2 text-white bg-[#144648ed] py-10 px-10 rounded-lg">
           <div>
             <h3 className="text-2xl font-bold mb-6 font-rubik">
