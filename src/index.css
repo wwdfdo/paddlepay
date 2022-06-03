@@ -34,3 +34,8 @@ code {
   src: local("rubik"), url("./fonts/Rubik-Bold.ttf") format("truetype");
   font-weight: bold;
 }
+@font-face {
+  font-family: "opensans";
+  src: local("opensans"), url("./fonts/OpenSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+}

@@ -4,7 +4,7 @@ import overviewImg from "../../images/overviewimg.png";
 const Overview = () => {
   return (
     <div id="Overview" className="pt-20">
-      <h2 className="lg:text-[2.5em] font-rubik text-[1.875em] font-bold text-center text-white lg:mb-16">
+      <h2 className="lg:text-[2.5em] font-rubik text-[1.875em] font-bold text-center text-white lg:mb-10">
         Overview
       </h2>
       <div className="flex w-4/5 justify-between mx-auto items-center gap-20">
