@@ -10,11 +10,12 @@ const Overview = () => {
       </h2>
       <div className="flex lg:flex-row flex-col w-4/5 justify-between mx-auto items-center gap-20">
         <img className="lg:w-1/2" src={overviewImg} alt="" />
-        <div className="box flex flex-col w-1/2 h-[400px] relative justify-center items-center  overflow-hidden rounded-[16px]">
-          <h2 className="text=[#fff] z-10 text-2xl font-bold mb-6 font-rubik">
+        <div className="box lg:w-1/2 text-white px-10 text-center h-[500px] boder-[2px] flex flex-col relative justify-center items-center overflow-hidden rounded-[20px]">
+          <h3 className="text-2xl font-bold mb-6 font-rubik z-20">
             EXPERIENCE JUST FOR RIDER OFFER
-          </h2>
-          <p className="text=[#fff] z-10 leading-loose text-semibold text-lg">
+          </h3>
+
+          <p className=" leading-loose text-semibold text-lg z-10">
             Ride2Earn is a tokenized sports application based on web3. Users can
             purchase NFTs in the form of virtual bicycles which are linked to
             real riding activities. By riding around, users will earn our in-app

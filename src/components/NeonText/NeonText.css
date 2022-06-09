@@ -13,12 +13,12 @@
 
 /* bg-red-200 rounded-full w-[60px] h-[60px] */
 
-.neon {
+/* .neon {
   text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff,
     0 0 80px #00b3ff, 0 0 120px #00b3ff;
-}
+} */
 
-.light-bar {
+/* .light-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -26,4 +26,4 @@
   height: 100%;
   border-radius: 50%;
   background: #fff;
-}
+} */

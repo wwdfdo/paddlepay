@@ -16,7 +16,7 @@ import Overview from "./Overview/Overview";
 import CardSlider from "./CardSlider/CardSlider";
 import Modes from "./Modes/Modes";
 import NeonText from "./NeonText/NeonText";
-import FontBox from "./FontBox/FontBox";
+// import FontBox from "./FontBox/FontBox";
 
 const Body = () => {
   return (
@@ -31,7 +31,7 @@ const Body = () => {
       <RidingMode />
       <SectionSix />
       <Modes />
-      <FontBox />
+      {/* <FontBox /> */}
       <NeonText />
       <TimelineRoadMap />
       {/* <SectionSeven /> */}

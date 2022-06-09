@@ -2,7 +2,7 @@
   content: "";
   position: absolute;
   width: 150px;
-  height: 200%;
+  height: 140%;
   background: linear-gradient(#001fff, #001fff);
   animation: animate 6s linear infinite;
 }
@@ -10,7 +10,7 @@
 .box::after {
   content: "";
   position: absolute;
-  inset: 1px;
+  inset: 4px;
   background: #000000;
   border-radius: 16px;
 }
