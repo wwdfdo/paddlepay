@@ -1,0 +1,29 @@
+/* .neon:before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-color: #ffee10;
+  border-width: 4px;
+  border-radius: 50%;
+  transition: 0.5s;
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #ffee10;
+} */
+
+/* bg-red-200 rounded-full w-[60px] h-[60px] */
+
+.neon {
+  text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff,
+    0 0 80px #00b3ff, 0 0 120px #00b3ff;
+}
+
+.light-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 100%;
+  border-radius: 50%;
+  background: #fff;
+}

@@ -5,6 +5,7 @@ import twitter from "../../images/footer-icons/twitter.png";
 import linkedin from "../../images/footer-icons/linkedin.png";
 import whatsapp from "../../images/footer-icons/whatsapp.png";
 import Logo from "../Header/Logo";
+import "./footer.css";
 
 const FooterTwo = () => {
   return (
@@ -62,20 +63,30 @@ const FooterTwo = () => {
           </div>
 
           <div className="flex gap-5 mt-5">
-            <div className="w-[31px]">
-              <img src={instagram} alt="" />
+            <div className="">
+              <a href="">
+                <img className="w-[31px] logoclass" src={instagram} alt="" />
+              </a>
             </div>
-            <div className="w-[31px]">
-              <img src={facebook} alt="" />
+            <div>
+              <a href="#">
+                <img className="w-[31px]" src={facebook} alt="" />
+              </a>
             </div>
-            <div className="w-[31px]">
-              <img src={twitter} alt="" />
+            <div>
+              <a href="#">
+                <img className="w-[31px]" src={twitter} alt="" />
+              </a>
             </div>
-            <div className="w-[31px]">
-              <img src={linkedin} alt="" />
+            <div>
+              <a href="#">
+                <img className="w-[31px]" src={linkedin} alt="" />
+              </a>
             </div>
-            <div className="w-[31px]">
-              <img src={whatsapp} alt="" />
+            <div>
+              <a href="#">
+                <img className="w-[31px]" src={whatsapp} alt="" />
+              </a>
             </div>
           </div>
         </div>

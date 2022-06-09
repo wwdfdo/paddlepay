@@ -1,0 +1,25 @@
+.box::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 200%;
+  background: linear-gradient(#001fff, #001fff);
+  animation: animate 6s linear infinite;
+}
+
+.box::after {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: #000000;
+  border-radius: 16px;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
